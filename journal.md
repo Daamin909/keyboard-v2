@@ -22,11 +22,10 @@ I designed the layout using kb-layout-editor, and finished the schematic for the
 
 ### 6th June (day 2): finish pcb
 
-
 after some brainstorming, i decided to not use sliders since they're pretty unfit for what i do. i ended up adding 2 REs and some noepixels on the pcb. since the mcu takes space on the top, ill put some neopixels which will have a glass/acrylic top for aesthetics. i made a VERY cool harry potter themed silkscreen and im very happy with how it turned out. routing this time way way better than my prev keyboard and i actually used a lot less vias. ill work on the case next
 
-![image](https://github.com/user-attachments/assets/2642259e-a40b-4413-9a6b-24c3cb5b88cd)
-![image](https://github.com/user-attachments/assets/55110cf3-7da0-49a6-a36d-c2fd708284a1)
+<image src="assets/front_3d.png" width="400">
 
+<image src="assets/back_3d.png" width="400">
 
 **Time Spent**: 4 hours
