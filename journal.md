@@ -29,3 +29,12 @@ after some brainstorming, i decided to not use sliders since they're pretty unfi
 <image src="assets/back_3d.png" width="400">
 
 **Time Spent**: 4 hours
+
+### 7th June (day 3): make changes to save money
+
+i removed the neopixels since i could not source them with in India, and PCBA would probably incur a lot of customs. I switched to using a bunch of LEDs. the colors will still look cool, and id save some money on customs.
+
+<image src="assets/new.png" width="400">
+
+
+**Time Spent**: 1 hour
