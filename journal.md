@@ -1,11 +1,11 @@
 ---
-title: "damnboard"
+title: "keyboard-v2"
 author: "Daamin Ashai"
 description: "a smart & cool keyboard"
 created_at: "2025-06-05"
 ---
 
-# damnboard - a custom keyboard
+# keyboard-v2 - a custom keyboard
 
 ### 5th June (day 1): brainstorming & schematic
 
@@ -36,5 +36,20 @@ i removed the neopixels since i could not source them with in India, and PCBA wo
 
 <image src="assets/new.png" width="400">
 
-
 **Time Spent**: 1 hour
+
+### 10th June (day 4): finish CAD and complete the keyboard!!
+
+I started working on the CAD, this time it was very easy, compared to last time when I was making a keyboard 😭.
+I decided on making a integrated top and plate to make it quick to print. I used the plate generator and this time it was smoother than last time. it took me a while to figure out the fastener situation, but i ended up using heatsets and kept it very hidden. I decided to go with an all - white case, and found an acrylic sheet to cover the LEDs, i also made a way to mount this sheet using some superglue. it was very fun to make this, and the renders look AWESOME.
+
+<image src="assets/1.png" width="400">
+<image src="assets/2.png" width="400">
+<image src="assets/3.png" width="400">
+<image src="assets/4.png" width="400">
+<image src="assets/5.png" width="400">
+<image src="assets/6.png" width="400">
+
+**Time Spent**: 6 hours
+
+**TOTAL TIME SPENT: 15 hours**
