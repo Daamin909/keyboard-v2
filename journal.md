@@ -5,6 +5,8 @@ description: "a smart & cool keyboard"
 created_at: "2025-06-05"
 ---
 
+**Total Time Spent: 15 hours**
+
 # keyboard-v2 - a custom keyboard
 
 ### 5th June (day 1): brainstorming & schematic
@@ -51,5 +53,3 @@ I decided on making a integrated top and plate to make it quick to print. I used
 <image src="assets/6.png" width="400">
 
 **Time Spent**: 6 hours
-
-**TOTAL TIME SPENT: 15 hours**
