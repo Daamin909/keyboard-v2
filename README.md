@@ -84,7 +84,7 @@ The Layout is a Default 60%.
 
 | Name                                                                  | Qty | Final Price - INR (USD) | Link                                                                                                       |
 | --------------------------------------------------------------------- | --- | ----------------------- | ---------------------------------------------------------------------------------------------------------- |
-| Gateron EF Grayish                                                    | 80  | 1465 ($17.14)           | [here](https://neomacro.in/products/gateron-ef-grayish)                                                    |
+| Gateron EF Grayish                                                    | 70  | 1465 ($17.14)           | [here](https://neomacro.in/products/gateron-ef-grayish)                                                    |
 | Cherry Profile PBT Keycaps                                            | 1   | 1299 ($15.14)           | [here](https://stackskb.com/store/veekos-gradient-keycaps-cherry-profile-135-keys)                         |
 | Durock Smokey Screw-In Stabilizers V2 (4+1 w/ 6.25u spacebar)         | 1   | 1595 ($18.6)            | [here](https://stackskb.com/store/durock-smokey-screw-in-stabilizers-v2/)                                  |
 | Diode 1N4148 Through - Hole                                           | 100 | 169 ($1.97)             | [here](https://amzn.in/d/j3eLvoh)                                                                          |
@@ -93,9 +93,9 @@ The Layout is a Default 60%.
 | M3 x 4mm Heatset Insert                                               | 25  | 242 ($2.83)             | [here](https://amzn.in/d/dpL3N2a)                                                                          |
 | PCB - (Black Color)                                                   | 5   | 3802.44 ($44.5)         | [here](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3f05c160f070155d4d5333c6b8261f5120b33c4c_image.png) |
 | Raspberry Pi Pico                                                     | 1   | 366.01 ($4.28)          | [here](https://roboticsdna.in/product/raspberry-pi-pico/)                                                  |
-| Super Bright Red LED 5MM (5 Pieces)                                   | 1   | 1                       | [here](https://roboticsdna.in/product/super-bright-red-led-5mm-5-pieces/)                                  |
-| Super Bright Blue LED 5MM (5 Pieces)                                  | 1   | 1                       | [here](https://roboticsdna.in/product/super-bright-blue-led-5mm-5-pieces/)                                 |
-| Super Bright Green LED 5MM (5 Pieces)                                 | 1   | 1                       | [here](https://roboticsdna.in/product/super-bright-green-led-5mm-5-pieces/)                                |
+| Super Bright Red LED 5MM (5 Pieces)                                   | 2   | 48 ($0.56)              | [here](https://roboticsdna.in/product/super-bright-red-led-5mm-5-pieces/)                                  |
+| Super Bright Blue LED 5MM (5 Pieces)                                  | 2   | 30 ($0.35)              | [here](https://roboticsdna.in/product/super-bright-blue-led-5mm-5-pieces/)                                 |
+| Super Bright Green LED 5MM (5 Pieces)                                 | 2   | 24 ($0.28)              | [here](https://roboticsdna.in/product/super-bright-green-led-5mm-5-pieces/)                                |
 | 330K Ohm 0.25W CFR Resistor ±5% Tolerance (Pack of 50 )               | 1   | 29.5 ($0.35)            | [here](https://roboticsdna.in/product/330k-ohm-0-25w-cfr-resistor-%c2%b15-tolerance-pack-of-50/)           |
 | Rotary Encoder Knob                                                   | 2   | Print Legion            |
 | Top Case - 1 (White "./production/top.step")                          | 1   | Print Legion            |

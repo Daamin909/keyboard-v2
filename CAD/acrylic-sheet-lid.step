@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'acrylic-sheet-lid v3.step',
-/* time_stamp */ '2025-06-10T23:30:00+05:30',
+/* name */ 'acrylic-sheet-lid.step',
+/* time_stamp */ '2025-06-11T20:47:06+05:30',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v20.1',
@@ -24,7 +24,7 @@ DATA;
 #10=MECHANICAL_DESIGN_GEOMETRIC_PRESENTATION_REPRESENTATION('',(#13),#183);
 #11=SHAPE_REPRESENTATION_RELATIONSHIP('SRR','None',#190,#12);
 #12=ADVANCED_BREP_SHAPE_REPRESENTATION('',(#14),#182);
-#13=STYLED_ITEM('',(#199),#14);
+#13=STYLED_ITEM('',(#200),#14);
 #14=MANIFOLD_SOLID_BREP('Body1',#107);
 #15=FACE_OUTER_BOUND('',#21,.T.);
 #16=FACE_OUTER_BOUND('',#22,.T.);
@@ -240,23 +240,31 @@ SOLID_ANGLE_UNIT()
 #189=PRODUCT_DEFINITION_SHAPE('',$,#192);
 #190=SHAPE_REPRESENTATION('',(#120),#182);
 #191=PRODUCT_DEFINITION_CONTEXT('part definition',#196,'design');
-#192=PRODUCT_DEFINITION('acrylic-sheet-lid','acrylic-sheet-lid v3',#193,
+#192=PRODUCT_DEFINITION('acrylic-sheet-lid','acrylic-sheet-lid v4',#193,
 #191);
 #193=PRODUCT_DEFINITION_FORMATION('',$,#198);
-#194=PRODUCT_RELATED_PRODUCT_CATEGORY('acrylic-sheet-lid v3',
-'acrylic-sheet-lid v3',(#198));
+#194=PRODUCT_RELATED_PRODUCT_CATEGORY('acrylic-sheet-lid v4',
+'acrylic-sheet-lid v4',(#198));
 #195=APPLICATION_PROTOCOL_DEFINITION('international standard',
 'automotive_design',2009,#196);
 #196=APPLICATION_CONTEXT(
 'Core Data for Automotive Mechanical Design Process');
 #197=PRODUCT_CONTEXT('part definition',#196,'mechanical');
-#198=PRODUCT('acrylic-sheet-lid','acrylic-sheet-lid v3',$,(#197));
-#199=PRESENTATION_STYLE_ASSIGNMENT((#200));
-#200=SURFACE_STYLE_USAGE(.BOTH.,#201);
-#201=SURFACE_SIDE_STYLE('',(#202));
-#202=SURFACE_STYLE_FILL_AREA(#203);
-#203=FILL_AREA_STYLE('Steel - Satin',(#204));
-#204=FILL_AREA_STYLE_COLOUR('Steel - Satin',#205);
-#205=COLOUR_RGB('Steel - Satin',0.627450980392157,0.627450980392157,0.627450980392157);
+#198=PRODUCT('acrylic-sheet-lid','acrylic-sheet-lid v4',$,(#197));
+#199=PRESENTATION_STYLE_ASSIGNMENT((#201));
+#200=PRESENTATION_STYLE_ASSIGNMENT((#202));
+#201=SURFACE_STYLE_USAGE(.BOTH.,#203);
+#202=SURFACE_STYLE_USAGE(.BOTH.,#204);
+#203=SURFACE_SIDE_STYLE('',(#205));
+#204=SURFACE_SIDE_STYLE('',(#206));
+#205=SURFACE_STYLE_FILL_AREA(#207);
+#206=SURFACE_STYLE_FILL_AREA(#208);
+#207=FILL_AREA_STYLE('Steel - Satin',(#209));
+#208=FILL_AREA_STYLE('Plastic - Glossy (White)',(#210));
+#209=FILL_AREA_STYLE_COLOUR('Steel - Satin',#211);
+#210=FILL_AREA_STYLE_COLOUR('Plastic - Glossy (White)',#212);
+#211=COLOUR_RGB('Steel - Satin',0.627450980392157,0.627450980392157,0.627450980392157);
+#212=COLOUR_RGB('Plastic - Glossy (White)',0.964705882352941,0.964705882352941,
+0.952941176470588);
 ENDSEC;
 END-ISO-10303-21;
