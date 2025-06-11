@@ -87,9 +87,9 @@ The Layout is a Default 60%.
 | Gateron EF Grayish                                                    | 70  | 1465 ($17.14)           | [here](https://neomacro.in/products/gateron-ef-grayish)                                                    |
 | Cherry Profile PBT Keycaps                                            | 1   | 1299 ($15.14)           | [here](https://stackskb.com/store/veekos-gradient-keycaps-cherry-profile-135-keys)                         |
 | Durock Smokey Screw-In Stabilizers V2 (4+1 w/ 6.25u spacebar)         | 1   | 1595 ($18.6)            | [here](https://stackskb.com/store/durock-smokey-screw-in-stabilizers-v2/)                                  |
-| Diode 1N4148 Through - Hole                                           | 100 | 169 ($1.97)             | [here](https://amzn.in/d/j3eLvoh)                                                                          |
+| Diode 1N4148 Through - Hole                                           | 80  | 188.8 ($2.21)           | [here](https://roboticsdna.in/product/diode-1n4148/)                                                       |
 | EC11 Rotary Encoder                                                   | 2   | 178 ($2.08)             | [here](https://amzn.in/d/hVRxzij)                                                                          |
-| M3 x 20mm Bolt                                                        | 15  | 149 ($1.73)             | [here](https://amzn.in/d/8GRQWAB)                                                                          |
+| M3 x 20mm Bolt                                                        | 20  | 56.64 ($0.66)           | [here](https://roboticsdna.in/product/easymech-set-of-m3-x-20mm-allen-bolt-20-pieces/)                     |
 | M3 x 4mm Heatset Insert                                               | 25  | 242 ($2.83)             | [here](https://amzn.in/d/dpL3N2a)                                                                          |
 | PCB - (Black Color)                                                   | 5   | 3802.44 ($44.5)         | [here](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3f05c160f070155d4d5333c6b8261f5120b33c4c_image.png) |
 | Raspberry Pi Pico                                                     | 1   | 366.01 ($4.28)          | [here](https://roboticsdna.in/product/raspberry-pi-pico/)                                                  |
@@ -104,7 +104,7 @@ The Layout is a Default 60%.
 
 ## Total Pricing
 
-The keyboard comes out to be 9,289.95 INR ($108.67) when adding ordered parts and PCB. Does not include 3D - Printed case, Pico and Knob.
+The keyboard comes out to be 9,324 INR ($109.15) when adding ordered parts and PCB. Does not include 3D - Printed case, Pico and Knob.
 PS:- (Seed Studio costs $142 )
 I have chose "air registered mail" over "UPS World Saver" because air registered mail is less likely to get customs even if it is more expensive.
 
