@@ -97,6 +97,7 @@ The Layout is a Default 60%.
 | Super Bright Blue LED 5MM (5 Pieces)                                  | 2   | 30 ($0.35)              | [here](https://roboticsdna.in/product/super-bright-blue-led-5mm-5-pieces/)                                 |
 | Super Bright Green LED 5MM (5 Pieces)                                 | 2   | 24 ($0.28)              | [here](https://roboticsdna.in/product/super-bright-green-led-5mm-5-pieces/)                                |
 | 330K Ohm 0.25W CFR Resistor ±5% Tolerance (Pack of 50 )               | 1   | 29.5 ($0.35)            | [here](https://roboticsdna.in/product/330k-ohm-0-25w-cfr-resistor-%c2%b15-tolerance-pack-of-50/)           |
+| Acrylic Sheet                                                         | 1   | 240 ($2.81)             | [here](https://amzn.in/d/05dUxqd)                                                                          |
 | Rotary Encoder Knob                                                   | 2   | Print Legion            |
 | Top Case - 1 (White "./production/top.step")                          | 1   | Print Legion            |
 | Bottom Case - 1 (White "./production/bottom.step")                    | 1   | Print Legion            |
@@ -104,7 +105,7 @@ The Layout is a Default 60%.
 
 ## Total Pricing
 
-The keyboard comes out to be 9,324 INR ($109.15) when adding ordered parts and PCB. Does not include 3D - Printed case, Pico and Knob.
+The keyboard comes out to be 9,564 INR ($111.96) when adding ordered parts and PCB. Does not include 3D - Printed case, Pico and Knob.
 PS:- (Seed Studio costs $142 )
 I have chose "air registered mail" over "UPS World Saver" because air registered mail is less likely to get customs even if it is more expensive.
 
