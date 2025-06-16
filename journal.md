@@ -5,7 +5,7 @@ description: "a smart & cool keyboard"
 created_at: "2025-06-05"
 ---
 
-**Total Time Spent: 15 hours**
+**Total Time Spent: 18 hours**
 
 # keyboard-v2 - a custom keyboard
 
@@ -53,3 +53,17 @@ I decided on making a integrated top and plate to make it quick to print. I used
 <image src="assets/6.png" width="400">
 
 **Time Spent**: 6 hours
+
+### 12th June (day 5): add firmware
+
+i did some gpt-ing since its very hard to make the firmware without having the parts with me 😭. and BOOM I had a firmware, I made a tiny little function to cycle through my LED configs and thats it!
+
+**Time Spent:** 1 hour
+
+### 16th June (day 6): made the case inclined
+
+i had some second thoughts on whether I should make my case inclined or not, and here we go. after some googling, i went with a 5 degree incline, and did some magic and once again BOOM. I added the holes for the fasteners and I was done! im really proud of how this ended up looking.
+
+<image src="assets/sus.png" width="400">
+
+**Time Spent**: 2 hours

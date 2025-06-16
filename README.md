@@ -11,6 +11,7 @@ Features:
 - 2x EC11 Rotary Encoder - For Volume, Brightness etc
 - 9x LEDs with acrylic for aesthetics (multicolor)
 - COOOL Silkscreen
+- 5° inclined case
 - Comfy Design
 - KMK firmware
 
@@ -50,15 +51,9 @@ The PCB's size is 290.9mm x 123.4mm
 
 ## Case
 
-Thickness:-
-
-- Top: 8.5mm
-- Bottom: 11mm
-- **Total**: 19.5mm
-  ![](assets/top.png)
-  ![](assets/bottom.png)
-  ![](assets/1.png)
-  ![](assets/lid.png)
+![](assets/top.png)
+![](assets/bottom.png)
+![](assets/lid.png)
 
 The case was made in Fusion360.
 The last image is of the 3D printed part to hold the acrylic sheet in place.
@@ -89,7 +84,8 @@ The Layout is a Default 60%.
 | Durock Smokey Screw-In Stabilizers V2 (4+1 w/ 6.25u spacebar)         | 1   | 1595 ($18.6)            | [here](https://stackskb.com/store/durock-smokey-screw-in-stabilizers-v2/)                                  |
 | Diode 1N4148 Through - Hole                                           | 80  | 188.8 ($2.21)           | [here](https://roboticsdna.in/product/diode-1n4148/)                                                       |
 | EC11 Rotary Encoder                                                   | 2   | 178 ($2.08)             | [here](https://amzn.in/d/hVRxzij)                                                                          |
-| M3 x 20mm Bolt                                                        | 20  | 56.64 ($0.66)           | [here](https://roboticsdna.in/product/easymech-set-of-m3-x-20mm-allen-bolt-20-pieces/)                     |
+| M3 x 16mm Bolt                                                        | 10  | 124 ($1.44)             | [here](https://amzn.in/d/0eY6kT4)                                                                          |
+| M3 x 25mm Bolt                                                        | 10  | 145 ($1.69)             | [here](https://amzn.in/d/3zS0SJ2)                                                                          |
 | M3 x 4mm Heatset Insert                                               | 25  | 242 ($2.83)             | [here](https://amzn.in/d/dpL3N2a)                                                                          |
 | PCB - (Black Color)                                                   | 5   | 3802.44 ($44.5)         | [here](https://hc-cdn.hel1.your-objectstorage.com/s/v3/3f05c160f070155d4d5333c6b8261f5120b33c4c_image.png) |
 | Raspberry Pi Pico                                                     | 1   | 366.01 ($4.28)          | [here](https://roboticsdna.in/product/raspberry-pi-pico/)                                                  |
@@ -105,13 +101,13 @@ The Layout is a Default 60%.
 
 ## Total Pricing
 
-The keyboard comes out to be 9,564 INR ($111.96) when adding ordered parts and PCB. Does not include 3D - Printed case, Pico and Knob.
+The keyboard comes out to be approximately 9,800 INR ($114) when adding ordered parts and PCB. Does not include 3D - Printed case and Knob.
 PS:- (Seed Studio costs $142 )
 I have chose "air registered mail" over "UPS World Saver" because air registered mail is less likely to get customs even if it is more expensive.
 
 ## Notes :-
 
-I want all the five 3D-printed parts to be printed in white color.
+I want all the three 3D-printed parts to be printed in white color.
 
 Some of the above items, were ordered in packs due to unavailability of singular items.
 The pricing might slightly vary due to flash sales, and dollar market trends.
