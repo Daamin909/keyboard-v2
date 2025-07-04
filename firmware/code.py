@@ -79,37 +79,9 @@ led3 = digitalio.DigitalInOut(board.GP28)
 led3.direction = digitalio.Direction.OUTPUT
 
 
-
-led_mode = 0  
-
-def update_leds():
-    modes = [
-        (False, False, False),   # Mode 0: All off
-        (True, False, False),  # Mode 1: only led1
-        (False, True, False),   # Mode 2: Only LED2
-        (False, False, True),   # Mode 3: Only LED3
-        (True, True, False),    # Mode 4: LED1 + LED2
-        (True, False, True),    # Mode 5: LED1 + LED3
-        (False, True, True),    # Mode 6: LED2 + LED3
-        (True, True, True),     # Mode 7: All LEDs
-    ]
-    current = modes[led_mode]
-    led1.value, led2.value, led3.value = current
-
-def cycle_led_mode(keyboard):
-    if (led_mode == 8):
-        led_mode = 0
-    else:
-        led_mode+=1
-    update_leds()
-
-KC_LED_TOGGLE = KC.MACRO(
-    on_press=None,
-    on_hold=None,
-    on_release=cycle_led_mode,
-    blocking=True,
-)
-update_leds()
+led1.value = True
+led2.value = True
+led3.value = True
 
 # Keymaps
 keyboard.keymap = [
@@ -117,16 +89,16 @@ keyboard.keymap = [
     [
         KC.ESC,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS, KC.EQL,  KC.BSPC,
         KC.TAB,  KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC, KC.BSLS,
-        KC.CAPS, KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,  KC.MEDIA_PLAY_PAUSE,
-        KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RSFT, KC.NO, KC_LED_TOGGLE,
+        KC.CAPS, KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,  KC.MUTE,
+        KC.LSFT, KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.SLSH, KC.RSFT, KC.NO, KC.MEDIA_PLAY_PAUSE,
         KC.LCTL, KC.LALT, KC.LGUI, KC.SPC,  KC.LGUI, KC.RALT, KC.RCTL, numero_uno,   KC.NO,   KC.NO,   KC.NO,   KC.NO,   KC.NO,   KC.NO,
     ],
     # Layer 1 - Alternate Layer
     [
         KC.TILDE,  KC.N1,   KC.N2,   KC.N3,   KC.N4,   KC.N5,   KC.N6,   KC.N7,   KC.N8,   KC.N9,   KC.N0,   KC.MINS, KC.EQL,  KC.BSPC,
         KC.TAB,    KC.Q,    KC.W,    KC.E,    KC.R,    KC.T,    KC.Y,    KC.U,    KC.I,    KC.O,    KC.P,    KC.LBRC, KC.RBRC, KC.BSLS,
-        KC.CAPS,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,  KC.MEDIA_PLAY_PAUSE,
-        KC.LSFT,   KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.UP,   KC.RSFT, KC_LED_TOGGLE, KC.NO,
+        KC.CAPS,   KC.A,    KC.S,    KC.D,    KC.F,    KC.G,    KC.H,    KC.J,    KC.K,    KC.L,    KC.SCLN, KC.QUOT, KC.ENT,  KC.MUTE,
+        KC.LSFT,   KC.Z,    KC.X,    KC.C,    KC.V,    KC.B,    KC.N,    KC.M,    KC.COMM, KC.DOT,  KC.UP,   KC.RSFT, KC.NO, KC.MEDIA_PLAY_PAUSE,
         KC.LCTL,   KC.LALT, KC.LGUI, KC.SPC,  KC.LEFT, KC.DOWN, KC.RIGHT, numero_dos,   KC.NO,   KC.NO,   KC.NO,   KC.NO,   KC.NO,   KC.NO,
     ],
 ]
