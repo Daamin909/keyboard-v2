@@ -58,10 +58,17 @@ keyboard.modules.append(macros)
 
 # Encoders
 encoder_handler.pins = ((ROT1A, ROT1B, None),)
-encoder_handler.map = [((KC.VOLU, KC.VOLD),),]
+encoder_handler.map = [
+    ((KC.VOLU, KC.VOLD),),  # Layer 0: Volume Up / Down
+    ((KC.UP, KC.DOWN),),    # Layer 1: Up / Down Arrow
+]
 
 encoder_handler2.pins = ((ROT2A, ROT2B, None),)
-encoder_handler2.map = [((KC.MRWD, KC.MFFD),),]
+encoder_handler2.map = [
+    ((KC.MRWD, KC.MFFD),),  # Layer 0: Media Rewind / Fast Forward
+    ((KC.LEFT, KC.RIGHT),), # Layer 1: Left / Right Arrow
+]
+
 
 keyboard.col_pins = (COL1, COL2, COL3, COL4, COL5, COL6, COL7, COL8, COL9, COL10, COL11, COL12, COL13, COL14)
 keyboard.row_pins = (ROW1, ROW2, ROW3, ROW4, ROW5)
@@ -79,9 +86,9 @@ led3 = digitalio.DigitalInOut(board.GP28)
 led3.direction = digitalio.Direction.OUTPUT
 
 
-led1.value = True
-led2.value = True
-led3.value = True
+led1.value = False
+led2.value = False
+led3.value = False
 
 # Keymaps
 keyboard.keymap = [
