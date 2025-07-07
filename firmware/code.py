@@ -59,7 +59,7 @@ keyboard.modules.append(macros)
 # Encoders
 encoder_handler.pins = ((ROT1A, ROT1B, None),)
 encoder_handler.map = [
-    ((KC.VOLU, KC.VOLD),),  # Layer 0: Volume Up / Down
+    ((KC.VOLD, KC.VOLU),),  # Layer 0: Volume Up / Down
     ((KC.UP, KC.DOWN),),    # Layer 1: Up / Down Arrow
 ]
 
