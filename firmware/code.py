@@ -59,14 +59,14 @@ keyboard.modules.append(macros)
 # Encoders
 encoder_handler.pins = ((ROT1A, ROT1B, None),)
 encoder_handler.map = [
-    ((KC.VOLD, KC.VOLU),),  # Layer 0: Volume Up / Down
     ((KC.UP, KC.DOWN),),    # Layer 1: Up / Down Arrow
+    ((KC.VOLD, KC.VOLU),),  # Layer 0: Volume Up / Down
 ]
 
 encoder_handler2.pins = ((ROT2A, ROT2B, None),)
 encoder_handler2.map = [
-    ((KC.MRWD, KC.MFFD),),  # Layer 0: Media Rewind / Fast Forward
-    ((KC.LEFT, KC.RIGHT),), # Layer 1: Left / Right Arrow
+    ((KC.RIGHT, KC.LEFT),), # Layer 1: Left / Right Arrow
+    ((KC.MFFD, KC.MRWD),),  # Layer 0: Media Rewind / Fast Forward
 ]
 
 
